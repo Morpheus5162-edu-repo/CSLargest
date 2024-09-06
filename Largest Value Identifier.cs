@@ -31,7 +31,7 @@ namespace DBMS_Activity
             // LblFirstValue
             // 
             this.LblFirstValue.AutoSize = true;
-            this.LblFirstValue.Location = new System.Drawing.Point(30, 42);
+            this.LblFirstValue.Location = new System.Drawing.Point(56, 46);
             this.LblFirstValue.Name = "LblFirstValue";
             this.LblFirstValue.Size = new System.Drawing.Size(56, 13);
             this.LblFirstValue.TabIndex = 0;
@@ -39,7 +39,7 @@ namespace DBMS_Activity
             // 
             // TxtFvalue
             // 
-            this.TxtFvalue.Location = new System.Drawing.Point(92, 39);
+            this.TxtFvalue.Location = new System.Drawing.Point(118, 43);
             this.TxtFvalue.Name = "TxtFvalue";
             this.TxtFvalue.Size = new System.Drawing.Size(82, 20);
             this.TxtFvalue.TabIndex = 1;
@@ -47,7 +47,7 @@ namespace DBMS_Activity
             // 
             // TxtSvalue
             // 
-            this.TxtSvalue.Location = new System.Drawing.Point(92, 65);
+            this.TxtSvalue.Location = new System.Drawing.Point(118, 69);
             this.TxtSvalue.Name = "TxtSvalue";
             this.TxtSvalue.Size = new System.Drawing.Size(82, 20);
             this.TxtSvalue.TabIndex = 3;
@@ -56,7 +56,7 @@ namespace DBMS_Activity
             // LblSecondValue
             // 
             this.LblSecondValue.AutoSize = true;
-            this.LblSecondValue.Location = new System.Drawing.Point(12, 68);
+            this.LblSecondValue.Location = new System.Drawing.Point(38, 72);
             this.LblSecondValue.Name = "LblSecondValue";
             this.LblSecondValue.Size = new System.Drawing.Size(74, 13);
             this.LblSecondValue.TabIndex = 2;
@@ -64,7 +64,7 @@ namespace DBMS_Activity
             // 
             // TxtTvalue
             // 
-            this.TxtTvalue.Location = new System.Drawing.Point(92, 91);
+            this.TxtTvalue.Location = new System.Drawing.Point(118, 95);
             this.TxtTvalue.Name = "TxtTvalue";
             this.TxtTvalue.Size = new System.Drawing.Size(82, 20);
             this.TxtTvalue.TabIndex = 5;
@@ -73,7 +73,7 @@ namespace DBMS_Activity
             // LblThirdValue
             // 
             this.LblThirdValue.AutoSize = true;
-            this.LblThirdValue.Location = new System.Drawing.Point(25, 94);
+            this.LblThirdValue.Location = new System.Drawing.Point(51, 98);
             this.LblThirdValue.Name = "LblThirdValue";
             this.LblThirdValue.Size = new System.Drawing.Size(61, 13);
             this.LblThirdValue.TabIndex = 4;
@@ -81,7 +81,7 @@ namespace DBMS_Activity
             // 
             // btnIdentify
             // 
-            this.btnIdentify.Location = new System.Drawing.Point(33, 130);
+            this.btnIdentify.Location = new System.Drawing.Point(59, 134);
             this.btnIdentify.Name = "btnIdentify";
             this.btnIdentify.Size = new System.Drawing.Size(126, 21);
             this.btnIdentify.TabIndex = 6;
@@ -89,9 +89,9 @@ namespace DBMS_Activity
             this.btnIdentify.UseVisualStyleBackColor = true;
             this.btnIdentify.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // CSLargest
             // 
-            this.ClientSize = new System.Drawing.Size(194, 208);
+            this.ClientSize = new System.Drawing.Size(249, 208);
             this.Controls.Add(this.btnIdentify);
             this.Controls.Add(this.TxtTvalue);
             this.Controls.Add(this.LblThirdValue);
@@ -99,7 +99,7 @@ namespace DBMS_Activity
             this.Controls.Add(this.LblSecondValue);
             this.Controls.Add(this.TxtFvalue);
             this.Controls.Add(this.LblFirstValue);
-            this.Name = "Form1";
+            this.Name = "CSLargest";
             this.Text = "CSLargest";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
