@@ -1,7 +1,7 @@
 ﻿
 namespace DBMS_Activity
 {
-    partial class Form1
+    partial class CSLargest
     {
         /// <summary>
         /// Required designer variable.

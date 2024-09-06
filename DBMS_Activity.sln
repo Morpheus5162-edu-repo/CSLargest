@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.35130.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBMS_Activity", "DBMS_Activity.csproj", "{603F1DEA-BB45-48A7-BABF-BA716E26E18A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSLargest", "CSLargest.csproj", "{603F1DEA-BB45-48A7-BABF-BA716E26E18A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
